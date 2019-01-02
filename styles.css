@@ -1,10 +1,33 @@
-body
+@font-face
 {
-	background-color: black;
-	color: white;
+	font-family:		'Exo2.0-Regular';
+	src:				url('Exo2.0-Regular.otf') format("opentype");
+
 }
 
-h1
+body
 {
-	margin-left: 20px;
+	font-family:		'Exo2.0-Regular';
+	font-weight:		normal;
+	font-style:			normal;
+	background-image: 	url("background.png");
+	background-color: 	black;
+	color: 				#daffff;
+}
+
+.titleCard
+{
+	text-align: 		center;
+	color: 				black;
+	font-size: 			64px;
+	text-shadow: 		0 0 3px #daffff, 0 0 5px #daffff;
+	font-family: 		'Exo2.0-Regular';
+	font-weight: 		normal;
+	font-style: 		normal;
+}
+
+.titleCard:hover
+{ 
+	color: 				white;
+	cursor: 			pointer;
 }
