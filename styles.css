@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family:		'Exo2.0-Regular';
-	src:				url('Exo2.0-Regular.otf') format("opentype");
+	src:				url('fonts/Exo2.0-Regular.otf') format("opentype");
 
 }
 
@@ -10,7 +10,7 @@ body
 	font-family:		'Exo2.0-Regular';
 	font-weight:		normal;
 	font-style:			normal;
-	background-image: 	url("background.png");
+	background-image: 	url("images/background.png");
 	background-color: 	black;
 	color: 				#daffff;
 }
@@ -18,7 +18,7 @@ body
 .titleCard
 {
 	text-align: 		center;
-	color: 				black;
+	color:				black;
 	font-size: 			64px;
 	text-shadow: 		0 0 3px #daffff, 0 0 5px #daffff;
 	font-family: 		'Exo2.0-Regular';
