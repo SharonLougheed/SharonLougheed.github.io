@@ -15,7 +15,7 @@ document.write('\
 				<a href="index.html" class="lightningInsideButton">Home</a>\
 			</div>\
 			<div class="lightningBorderButton">\
-				<a href="games.html" class="lightningInsideButton">Games</a>\
+				<a target="_blank" href="https://sharonlougheed.wixsite.com/portfolio" class="lightningInsideButton">Games</a>\
 			</div>\
 			<div class="lightningBorderButton">\
 				<a href="resume.html" class="lightningInsideButton">Resume</a>\
