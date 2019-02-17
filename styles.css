@@ -1,33 +1,137 @@
 @font-face
 {
-	font-family:		'Exo2.0-Regular';
-	src:				url('fonts/Exo2.0-Regular.otf') format("opentype");
+	font-family:			'Exo2.0-Regular';
+	src:					url('fonts/Exo2.0-Regular.otf') format("opentype");
 
 }
 
 body
 {
-	font-family:		'Exo2.0-Regular';
-	font-weight:		normal;
-	font-style:			normal;
-	background-image: 	url("images/background.png");
-	background-color: 	black;
-	color: 				#daffff;
+	font-family:			'Exo2.0-Regular';
+	font-weight:			normal;
+	font-style:				normal;
+	background-image: 		url("images/background.png");
+	background-color:	 	black;
+	color: 					#daffff;
+}
+
+h1
+{
+	text-align: 			center;
+    margin-bottom:			30px;
 }
 
 .titleCard
 {
-	text-align: 		center;
-	color:				black;
-	font-size: 			64px;
-	text-shadow: 		0 0 3px #daffff, 0 0 5px #daffff;
-	font-family: 		'Exo2.0-Regular';
-	font-weight: 		normal;
-	font-style: 		normal;
+	text-align: 			center;
+	color:					black;
+	font-size: 				64px;
+	text-shadow: 			0 0 3px #daffff, 0 0 5px #daffff;
+	font-family: 			'Exo2.0-Regular';
+	font-weight: 			normal;
+	font-style: 			normal;
+	text-decoration: 		none;
+	opacity:				1;
+	transition:				.5s ease;
+	backface-visibility:	hidden;
 }
 
 .titleCard:hover
-{ 
-	color: 				white;
-	cursor: 			pointer;
+{
+	color: 					white;
+	cursor: 				pointer;
 }
+
+.centeredPanel
+{
+	text-align:				center;
+}
+
+.lightningBorderBox
+{
+	border-image-source:	url("images/border.png");
+    border-image-slice:		64 64 64 64 fill;
+    border-image-width:		auto;
+    border-style:			solid;
+}
+
+.lightningInsideBox
+{
+    margin:					48px;
+	white-space:			pre-wrap;
+	text-align:				left;
+}
+
+.resumeLightningBorderBox
+{
+	border-image-source:	url("images/border.png");
+    border-image-slice:		64 64 64 64 fill;
+    border-image-width:		auto;
+    border-style:			solid;
+	height:					1100px;
+	width:					825px;
+	text-align:				center;
+	vertical-align:			middle;
+    display:				inline-table;
+}
+
+.resumeLightningInsideBox
+{
+	text-align:				center;
+    display:				table-cell;
+    vertical-align:			middle;
+}
+
+.buttonPanel
+{
+    text-align:				center;
+}
+
+.lightningBorderButton
+{
+	border-image-source:	url("images/border.png");
+    border-image-slice:		64 64 64 64 fill;
+    border-image-width:		300px;
+    border-style:			solid;
+	width:					200px;
+    height:					75px;
+    display:				inline-table;
+	color:					black;
+    text-shadow:			0 0 3px #daffff, 0 0 5px #daffff;
+	opacity:				1;
+	transition:				.5s ease;
+	backface-visibility:	hidden;
+}
+
+.lightningBorderButton:hover
+{
+	color:					white;
+	cursor: 				pointer;
+}
+
+.lightningInsideButton
+{
+    text-align:				center;
+	color:					black;
+    display:				table-cell;
+    vertical-align:			middle;
+    font-size:				32px;
+    padding-bottom:			4px;
+	cursor:					pointer;
+	font-family: 			'Exo2.0-Regular';
+	font-weight: 			normal;
+	font-style: 			normal;
+	text-decoration: 		none;
+    text-shadow:			0 0 3px #daffff, 0 0 5px #daffff;
+	opacity:				1;
+	transition:				.5s ease;
+	backface-visibility:	hidden;
+}
+
+
+.lightningInsideButton:hover
+{
+	color:					white;
+	cursor: 				pointer;
+}
+
