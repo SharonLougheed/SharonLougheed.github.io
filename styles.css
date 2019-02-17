@@ -82,6 +82,26 @@ h1
     vertical-align:			middle;
 }
 
+.contactLightningBorderBox
+{
+	border-image-source:	url("images/border.png");
+    border-image-slice:		64 64 64 64 fill;
+    border-image-width:		auto;
+    border-style:			solid;
+	height:					836px;
+	width:					715px;
+	text-align:				center;
+	vertical-align:			middle;
+    display:				inline-table;
+}
+
+.contactLightningInsideBox
+{
+	text-align:				center;
+    display:				table-cell;
+    vertical-align:			middle;
+}
+
 .buttonPanel
 {
     text-align:				center;
