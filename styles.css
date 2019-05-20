@@ -11,7 +11,7 @@ body
 	font-weight:			normal;
 	font-style:				normal;
 	background-image: 		url("images/background.png");
-	background-color:	 	white;
+	background-color:	 	black;
 	color: 					#daffff;
 }
 
@@ -21,16 +21,20 @@ h1
     margin-bottom:			30px;
 }
 
-.titleCard
+.titleCardText
 {
 	text-align: 			center;
-	color:					white;
 	font-size: 				64px;
 	text-shadow: 			0 0 3px #daffff, 0 0 5px #daffff;
 	font-family: 			'Exo2.0-Regular';
 	font-weight: 			normal;
 	font-style: 			normal;
+}
+
+.titleCard
+{
 	text-decoration: 		none;
+	color:					white;
 	opacity:				1;
 	transition:				.5s ease;
 	backface-visibility:	hidden;

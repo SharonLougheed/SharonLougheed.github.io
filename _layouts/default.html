@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<link rel="icon" 
+		  type="image/png" 
+		  href="favicon.png">
+	<head>
+		<title>Sharon Lougheed</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1 ><a href="index.html" class="titleCard"><div class="titleCardText">Sharon Lougheed</div></a></h1>
+		{% include nav.html %}
+		<main>
+			{{ content | rstrip }}
+		</main>
+	</body>
+</html>
