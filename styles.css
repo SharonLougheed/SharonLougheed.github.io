@@ -124,6 +124,7 @@ h1
     text-shadow:			0 0 3px #daffff, 0 0 5px #daffff;
 	opacity:				1;
 	transition:				.5s ease;
+	transition-property:	color;
 	backface-visibility:	hidden;
 }
 
@@ -149,6 +150,7 @@ h1
     text-shadow:			0 0 3px #daffff, 0 0 5px #daffff;
 	opacity:				1;
 	transition:				.5s ease;
+	transition-property:	color;
 	backface-visibility:	hidden;
 }
 
