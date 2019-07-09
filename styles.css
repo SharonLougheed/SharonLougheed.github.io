@@ -3,6 +3,7 @@
 	font-family:			'Exo2.0-Regular';
 	src:					url('fonts/Exo2.0-Regular.otf') format("opentype");
 }
+/*TODO Clean up this file*/
 
 body
 {
@@ -50,6 +51,13 @@ h1
 	text-align:				center;
 }
 
+.inlinePanel
+{
+	width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .lightningBorderBox
 {
 	border-image-source:	url("images/borderTranslucent.png");
@@ -58,19 +66,10 @@ h1
     border-style:			solid;
 }
 
-.lightningBorderBoxOuterImage
+.imageBorderSpacing
 {
-	/*
-	border-image-source:	url("images/border.png");
-    border-image-slice:		64 64 64 64 fill;
-    border-image-width:		auto;
-    border-style:			solid;
-    border-image-outset:	4;
-    	*/
 	margin:					16px;
-
 	position:				relative;
-	width:					30%;
 	display: 				inline-block;
 }
 .lightningBorderBoxInnerImage
@@ -101,10 +100,12 @@ h1
 .imageCornerClip
 {
 	max-width:				100%;
+	/*
 	opacity:				1;
 	transition:				.5s ease;
 	transition-property:	opacity;
 	backface-visibility:	hidden;
+	*/
 	clip-path:				polygon(
 								0% 32px,                 /* top left */
 								32px 0%,                 /* top left */
@@ -137,8 +138,11 @@ h1
 }
 .imgBorderTop
 {
+	position:				absolute;
 	width:					calc(100% - 128px);
 	height:					64px;
+	top:					0px;
+	left:					64px;
 }
 .imgBorderTopRight
 {
@@ -182,12 +186,13 @@ h1
 	position:				absolute;
 	top:					64px;
 }
-
+/*
 .imageCornerClip:hover
 {
 	opacity:				0.5;
 	cursor: 				pointer;
 }
+*/
 .lightningInsideBoxBorder
 {
 	border-image-source:	url("images/border.png");
@@ -271,6 +276,16 @@ h1
 	text-align:				left;
 }
 
+.lightningInsideSmallBox
+{
+    margin-top:				40px;
+    margin-left:			40px;
+    margin-right:			40px;
+	white-space:			pre-wrap;
+	text-align:				left;
+	font-size:				large;
+}
+
 .resumeLightningBorderBox
 {
 	border-image-source:	url("images/borderTranslucent.png");
@@ -314,6 +329,12 @@ h1
 .buttonPanel
 {
     text-align:				center;
+}
+
+.buttonPanelSmall
+{
+    text-align:				center;
+	margin:					16px;
 }
 
 .lightningBorderButton
