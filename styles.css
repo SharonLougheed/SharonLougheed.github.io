@@ -94,11 +94,13 @@ h1
 }
 .imageMargin
 {
-	position:				relative;
+    max-width:				100%;
+    display:				block;
+    padding:				16px;
 }
 .imageCornerClip
 {
-	width:					100%;
+	max-width:				100%;
 	opacity:				1;
 	transition:				.5s ease;
 	transition-property:	opacity;
@@ -113,8 +115,74 @@ h1
 								32px 100%,               /* bottom left */
 								0 calc(100% - 32px)      /* bottom left */
 							);
-
+	display:				block;
 }
+
+.imageBorder
+{
+	position:				absolute;
+	top:					0px;
+	left:					0px;
+	width:					100%;
+	height:					100%;
+	pointer-events:			none;
+}
+
+.imgBorderTopLeft
+{
+	position:				absolute;
+	top:					0px;
+	left:					0px;
+	display:				inline-block;
+}
+.imgBorderTop
+{
+	width:					calc(100% - 128px);
+	height:					64px;
+}
+.imgBorderTopRight
+{
+	position:				absolute;
+	top:					0px;
+	right:					0px;
+}
+.imgBorderRight
+{
+	height:					calc(100% - 128px);
+	width:					64px;
+	right:					0px;
+	position:				absolute;
+	top:					64px;
+}
+.imgBorderBottomRight
+{
+	position:				absolute;
+	bottom:					0px;
+	right:					0px;
+}
+.imgBorderBottom
+{
+	width:					calc(100% - 128px);
+	height:					64px;
+	position:				absolute;
+	bottom:					0px;
+	left:					64px;
+}
+.imgBorderBottomLeft
+{
+	position:				absolute;
+	bottom:					0px;
+	left:					0px;
+}
+.imgBorderLeft
+{
+	height:					calc(100% - 128px);
+	width:					64px;
+	left:					0px;
+	position:				absolute;
+	top:					64px;
+}
+
 .imageCornerClip:hover
 {
 	opacity:				0.5;
