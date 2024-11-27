@@ -315,7 +315,7 @@ h1
 
 .contactLightningBorderBox
 {
-	border-image-source:	url("images/borderTranslucent.png");
+	border-image-source:	url("images/borderOpaqueWhite.png");
     border-image-slice:		64 64 64 64 fill;
     border-image-width:		auto;
     border-style:			solid;
